@@ -1,6 +1,9 @@
 import React, {useState} from "react"
-import { Box, Button, Collapsible, Heading, Grommet, Layer,ResponsiveContext } from 'grommet';
+import { Box, Button, Collapsible, Heading, Grommet, Layer, ResponsiveContext } from 'grommet';
 import { FormClose, Notification } from 'grommet-icons';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+
+
 const theme = {
   global: {
     colors: {
@@ -65,4 +68,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default  App;
