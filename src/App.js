@@ -56,7 +56,7 @@ const App = () => {
                 align='center'
                 justify='center'
               >
-                sidebar
+                sidebar here
               </Box>
             </Collapsible>
             )}
